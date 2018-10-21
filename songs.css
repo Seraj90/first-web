@@ -1,0 +1,43 @@
+li {
+    border: 1px solid black;
+    text-align: center;
+    background-color: lightskyblue;
+    padding: 20px;
+    margin: 30px;
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 400px;
+    display:inline-block;
+    
+
+    /* background: blue url("https://www.oodlesthemes.com/wp-content/uploads/2017/10/OO0122373-Blue-abstract-background-design-copy-copy-100x100.jpg") no-repeat right bottom; */
+}
+
+li:hover {
+    background-color: green;
+    transition: background-color 1s;
+}
+
+div {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: red;
+    padding: 0 20px;
+}
+
+ul {
+    /* I hate bullet points */
+    list-style: none;
+
+    
+}
+
+img {
+    width: 200px;
+}
+
+p {
+    font-style: italic;
+}
